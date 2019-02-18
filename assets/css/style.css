@@ -2,45 +2,47 @@
 
 /* 
 -How to set 'About Me' font color
--How to style text in navbar
--
+-How to float `nav-item` right
+-Set background image
   */
 
-
-
-.navbar {
-    padding: 20px;
-    border-bottom: solid 3px #cccccc;
-}
-
-.navbar a  {
-    padding 20px;
-    background-color: #4aaaa5;
-}
-
-#navlinks   {
-    float: right;
-} 
+  body {
     
+    color: #777777;
+    background: url("/assets/images/what-the-hex/what-the-hex.png");
+  }
+  
+.navbar {
+    padding: 0px;
+    border-bottom: solid 3px #cccccc;
+    z-index: 5;
 }
 
-.jumbotron    {
-    background-image: url("./assets/images/what-the-hex/what-the-hex.png");
-   
-
+h1  {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0;
 }
+
 
 .bio-section    {
     border: 2px solid #dddddd;
     background-color: #ffffff;
     overflow: auto;
-    width: 80vw;
+    width: 60vw;;
     margin: auto;
+    padding: 20px;
 }
 
 .about-me {
     color: #4aaaa5;
 
+}
+
+hr {
+    height: 5px;
+    width: 95%;
 }
 
 img {
