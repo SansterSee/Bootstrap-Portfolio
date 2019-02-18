@@ -1,35 +1,81 @@
 /* Bootstrap Portfolio Stylesheet */
 
+/* 
+-How to set 'About Me' font color
+-How to style text in navbar
+-
+  */
 
-header  {
+
+
+.navbar {
+    padding: 20px;
+    border-bottom: solid 3px #cccccc;
+}
+
+.navbar a  {
+    padding 20px;
+    background-color: #4aaaa5;
+}
+
+#navlinks   {
+    float: right;
+} 
+    
+}
+
+.jumbotron    {
+    background-image: url("./assets/images/what-the-hex/what-the-hex.png");
+   
 
 }
 
+.bio-section    {
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    overflow: auto;
+    width: 80vw;
+    margin: auto;
+}
 
-nav {
+.about-me {
+    color: #4aaaa5;
 
 }
 
-.bio    {
-
-}
-
-.intro  {
-
-}
-
-#copyright  {
-
-}
-
-h1  {
-
-}
-
-h2  {
+img {
+    float: left;
+    padding: 10px;
+    top: 0px;
     
 }
 
 p   {
+    clear: right;
+}
+
+
+.font-heading   {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.font-text  {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer  {
+    background-color: #666666;
+    padding: 15px;
+    border-top: 5px solid;
+
+}
+
+.copy   {
+    padding: 10px 10px 0px 10px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom: -10px;
 
 }
