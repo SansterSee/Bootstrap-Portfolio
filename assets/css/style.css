@@ -6,17 +6,25 @@
 -Set background image
   */
 
-  body {
-    
-    color: #777777;
-    background: url("/assets/images/what-the-hex/what-the-hex.png");
-  }
+
+#brand  {
+    background-color: #4aaaa5;
+    border: 2px;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 25px;
+
+/* Fill out background color */
+}
   
-.navbar {
+#header-block {
     padding: 0px;
     border-bottom: solid 3px #cccccc;
     z-index: 5;
+    background-color: #ffffff;
 }
+
 
 h1  {
     color: #ffffff;
@@ -25,6 +33,11 @@ h1  {
     margin: 0;
 }
 
+.jumbotron {
+    
+    color: #777777;
+    background: url("../images/what-the-hex.png");
+}
 
 .bio-section    {
     border: 2px solid #dddddd;
@@ -65,19 +78,18 @@ p   {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-footer  {
+.row-footer  {
     background-color: #666666;
-    padding: 15px;
+    padding: 20px;
     border-top: 5px solid;
+    text-align: center;
 
 }
 
 .copy   {
-    padding: 10px 10px 0px 10px;
     font-size: small;
-    text-align: center;
     color: #ffffff;
-    position: relative;
-    bottom: -10px;
+    
+    
 
 }
